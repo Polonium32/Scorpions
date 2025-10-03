@@ -11,7 +11,7 @@ echo 			██╔════╝██╔════╝██╔═══██
 echo 			███████╗██║     ██║   ██║██████╔╝██████╔╝██║██║   ██║██╔██╗ ██║███████╗		             
 echo 			╚════██║██║     ██║   ██║██╔══██╗██╔═══╝ ██║██║   ██║██║╚██╗██║╚════██║			           
 echo 			███████║╚██████╗╚██████╔╝██║  ██║██║     ██║╚██████╔╝██║ ╚████║███████║				               
-echo 			╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝		v1.0 	                  
+echo 			╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝		v1.0                
 echo.																					                       																					                      																					        
 echo ========================================================================================================================
 echo. 
@@ -144,8 +144,6 @@ goto tool
 cls
 title Multitool - Shutdown
 echo Click "Browse" to select computers to shut down.
-echo This option is still in beta, so it may or may not work, please report issues on the github page:
-echo github.com/CorbinMakesStuff/batch-multitool
 shutdown -i
 goto tool
 
